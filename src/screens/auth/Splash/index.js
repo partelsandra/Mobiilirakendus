@@ -14,9 +14,9 @@ const Splash = () => {
             <Image resizeMode="contain" style={styles.image} source={require('../../../assets/splash_image.png')} />
 
             <View style={styles.titleContainer}>
-                <Text style={styles.title}>You’ll Find
-                    <Text style={styles.innerTitle}>All you need</Text>
-                    Here!</Text>
+                <Text style={styles.title}>You’ll Find</Text>
+                <Text style={[styles.title, styles.innerTitle]}>All you need</Text>
+                <Text style={styles.title}>Here!</Text>
             </View>
 
             <Button title="Sign Up" />

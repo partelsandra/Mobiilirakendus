@@ -1,12 +1,11 @@
-import react from "react";
+import React from "react";
 import { SafeAreaView } from "react-native";
-import Splash from "./src/screens/auth/Splash";
-import Button from "./src/components/Button";
+import Signup from "./src/screens/auth/Signup";
 
 const App = () => {
   return (
     <SafeAreaView>
-      <Splash/>
+      <Signup/>
     </SafeAreaView>
   );
 };
